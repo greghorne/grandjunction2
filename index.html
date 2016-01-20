@@ -40,7 +40,13 @@
 		color: blue;
 	}
 	.carousel-inner > .item > img {
-    	margin: 0 auto;
+    	max-width: 80%;
+    	height: 100%;
+    	padding: 20%;
+	}
+	.carousel .item {
+		background-color: gray;
+		height: 100%
 	}
 
 
@@ -48,8 +54,12 @@
 
 <script>
 	$(document).ready(function() {
-
+	$('#myCarousel').on("slide.bs.carousel", function(){
+         $(".carousel-control",this).css('top',($(".active img",this).height()*0.46)+'px');
+         $(this).off("slide.bs.carousel");
+    });
 	})
+
 </script>
 
 <html lang="en">
@@ -82,6 +92,7 @@
             <p class="text-center">
             <h5 class="text-center text-white">Hitches, 5th Wheels, Bumpers, Bedliners, Window Tinting, Push Bars, Winches</h5>
             <p></p>
+            <h5 class="text-center text-white">Brands We Carry</h5>
 
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -89,19 +100,35 @@
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
+					<li data-target="#myCarousel" data-slide-to="6"></li>
+					<li data-target="#myCarousel" data-slide-to="7"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="Ford.jpg" alt="truck">
+						<img src="logo1.png">
 					</div>
 					<div class="item">
-						<img src="toyota.jpg">
+						<img src="weathertech2.jpg">
 					</div>
 					<div class="item">
-						<img src="nissan.jpg">
+						<img src="rollnlock.jpg">
 					</div>
 					<div class="item">
-						<img src="chevy.jpg">
+						<img src="b&w.jpg">
+					</div>
+					<div class="item">
+						<img src="drawtite.jpg">
+					</div>
+					<div class="item">
+						<img src="cattleman.png">
+					</div>
+					<div class="item">
+						<img src="undercover_logo.jpg">
+					</div>
+					<div class="item">
+						<img src="undercoverflex.jpg">
 					</div>					
 				</div>
 			</div>
