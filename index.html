@@ -14,12 +14,12 @@
 		height: 100%;
 	}
 
-	.background-lightblue {
+	.background-gray {
 		background-color: gray;
 	}
-	h2, h3 {
+/*	h3 {
 		color: white;
-	}
+	}*/
 	p {
 		color: white;
 		text-align: center;
@@ -27,26 +27,45 @@
 	a {
 		color: blue;
 	}
+
 	.text-black {
 		color: black;
-	}
-	.footer, .push {
-		height: 100px;
 	}
 	.text-white {
 		color: white;
 	}
 	.text-blue {
-		color: blue;
+		color: #0066ff;
 	}
+
+	.footer, .push {
+		height: 100px;
+	}
+
 	.carousel-inner > .item > img {
     	max-width: 100%;
     	height: 100%;
     	padding: 20%;
 	}
 	.carousel .item {
-		background-color: gray;
+		/*background-color: gray;*/
 		height: 100%
+	}
+	.carousel-padding {
+		margin: : 5px 5px 5px 5px;
+	}
+
+	.well-padding {
+		margin: 5px 5px 5px 5px;
+		border-radius: 5px;
+	}
+	.well-border {
+		border-top: 25px;
+		border-color: #0066ff;
+	}
+
+	.background-transparent {
+		background-color: transparent;
 	}
 
 
@@ -66,32 +85,34 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 	</head>
-	<body class="background-lightblue">
-		<nav class="navbar navbar-default background-lightblue">
+	<body background="images/bo_play_pattern.png">
+<!-- 		<nav class="navbar navbar-default background-gray">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">Grand Junction Tulsa</a>
+		      <a class="navbar-brand text-white" href="#">Grand Junction Tulsa</a>
 		    </div>
-		    <ul class="nav navbar-nav">
+ 		    <ul class="nav navbar-nav">
 		      <li class="active"><a href="index.html">Home</a></li>
 		      <li><a href="products.html">Products</a></li>
 		    </ul>
-		  </div>
+		  </div> 
 		</nav>
+ -->
+ 		<div class="well well-sm text-center well-padding text-blue background-transparent">
+ 			<h3>Grand Junction Tulsa Truck Accessories</h3>
+ 			<h4>Your home for truck accessories and parts for over 35 years.</h4>
+ 		</div>
 
 		<div class="containter-fluid">
-
-            <h4 class="text-center text-white">Your home for truck accessories and parts.</h4>
-            <h5></h5>
-            <h5 class="text-center">We have been in business for over 35 years and have many repeat customers.</h5>
-            <h5 class="text-center">We install what we sell and can even have your parts painted to match your truck.</h5>
-            <h5 class="text-center">Stop by or give us a call.</h5>
-            <p class="text-center">
-            <h5 class="text-center text-white">Hitches, 5th Wheels, Bumpers, Bedliners, Window Tinting, Push Bars, Winches</h5>
-            <p></p>
-            <h5 class="text-center text-white">Brands We Carry</h5>
-
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div class="well well-sm text-center well-padding text-white background-transparent">
+	            <!-- <h4 class="text-center text-white">Your home for truck accessories and parts.</h4> -->
+	            <h5 class="text-center">We install what we sell and can even have your parts painted to match your truck.</h5>
+	            <h5 class="text-center">Stop by or give us a call.</h5>
+	            <p class="text-center">
+	            <h5 class="text-center text-white">Hitches, 5th Wheels, Bumpers, Bedliners, Window Tinting, Push Bars, Winches</h5>
+	            <p></p>
+	        </div>
+			<div id="myCarousel" class="carousel slide background-transparent" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -104,35 +125,60 @@
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="logo1.png">
+						<img src="images/century.png">
 					</div>
 					<div class="item">
-						<img src="weathertech2.jpg">
+						<img src="images/weathertech.jpg">
 					</div>
 					<div class="item">
-						<img src="rollnlock.jpg">
+						<img src="images/rollnlock.jpg">
 					</div>
 					<div class="item">
-						<img src="b&w.jpg">
+						<img src="images/b&w.jpg">
 					</div>
 					<div class="item">
-						<img src="drawtite.jpg">
+						<img src="images/drawtite.jpg">
 					</div>
 					<div class="item">
-						<img src="cattleman.png">
+						<img src="images/cattleman.png">
 					</div>
 					<div class="item">
-						<img src="undercover_logo.jpg">
+						<img src="images/undercover.jpg">
 					</div>
 					<div class="item">
-						<img src="undercoverflex.jpg">
+						<img src="images/undercoverflex.jpg">
 					</div>					
 				</div>
 			</div>
 
+			<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/ford.jpg">
+					</div>
+					<div class="item">
+						<img src="images/chevy.jpg">
+					</div>
+					<div class="item">
+						<img src="images/toyota.jpg">
+					</div>
+					<div class="item">
+						<img src="images/nissan.jpg">
+					</div>
+
+				</div>
+			</div>
+
+
             <div class="push"></div>
 			<div class="footer text-center">
-			  <h6 class="text-black">(918) 245-6362  -  8100 Charles Page Blvd, Tulsa, OK 74127
+			  <h6 class="text-white">(918) 245-6362  -  8100 Charles Page Blvd, Tulsa, OK 74127
 			  <a target="_blank" href="https://www.google.com/maps/place/Grand+Junction+Custom+Trucks/@36.14182,-96.082811,15z/data=!4m2!3m1!1s0x0:0xacdacc675f4cdc0f"> - Map Us</a></h6>
 			</div>
 			<p></p>
