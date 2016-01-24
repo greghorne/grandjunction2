@@ -1,0 +1,65 @@
+	html, body {
+		height: 100%;
+	}
+
+	p {
+		color: white;
+		text-align: center;
+	}
+	a {
+		color: red;
+	}
+
+	.text-black {
+		color: black;
+	}
+	.text-white {
+		color: white;
+	}
+	.text-blue {
+		color: #0066ff;
+	}
+
+	.background-transparent {
+		background-color: transparent;
+	}
+	.background-black {
+		background-color: black;
+	}
+	.background-gray {
+		background-color: gray;
+	}
+
+
+	.footer, .push {
+		height: 100px;
+	}
+
+	.carousel-inner > .item > img {
+    	max-width: 100%;
+    	height: 50%;
+    	padding: 5%;
+	}
+	.carousel .item {
+		/*background-color: gray;*/
+		/*height: 50%;*/
+	}
+	.carousel-padding {
+		margin: 5px 5px 5px 5px;
+	}
+
+	.well-padding {
+		margin: 10px 10px 10px 10px;
+		border-radius: 10px;
+		border-width: 2px;
+	}
+	.well-border {
+		border-top: 25px;
+		border-color: #0066ff;
+	}
+
+	.image-position {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
