@@ -19,6 +19,13 @@
 	.text-blue {
 		color: #0066ff;
 	}
+	.text-orange {
+		color: rgb(233,94,39);
+	}
+
+	.border-orange {
+		border-color: rgb(233,94,39);
+	}
 
 	.background-transparent {
 		background-color: transparent;
