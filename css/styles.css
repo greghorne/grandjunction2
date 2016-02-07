@@ -19,6 +19,11 @@
 	h3 {
 		font-size: 1.5em;
 	}
+
+	.responsive-image {
+		height: auto;
+		width: 100%;
+	}
 	.text-black {
 		color: black;
 	}
