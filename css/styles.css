@@ -36,6 +36,9 @@
 	.text-orange {
 		color: rgb(233,94,39);
 	}
+	.text-yellow {
+		color: yellow;
+	}
 
 	.border-orange {
 		border-color: rgb(233,94,39);
