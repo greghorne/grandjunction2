@@ -61,6 +61,14 @@
 	.footer, .push {
 		height: 100px;
 	}
+	
+/*	.tales {
+	  width: 100%;
+	}
+	.carousel-inner{
+	  width:100%;
+	  max-height: 300px !important;
+	}*/
 
 	.carousel-inner > .item > img {
 	    margin: 0 auto auto auto;
@@ -69,11 +77,11 @@
 		/*background-color: gray;*/
 		/*height: 50%;*/
 	}
-	.carousel-inner {
+/*	.carousel-inner {
 		max-height: 300px;
-	}
+	}*/
 	.carousel-indicators {
-		bottom: -50px;
+		top: -25px;
 	}
 
 	.well-padding {
